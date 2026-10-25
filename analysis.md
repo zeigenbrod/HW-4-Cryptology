@@ -32,7 +32,7 @@ The final chain value is $x_{\ell+\ell'}^* = x'_{\ell'} = t'$. This means
 
 $$\boxed{\mathsf{Mac}_k(m^*) = t'}.$$
 
-$m^*$ is different from $m$ because of the extra blocks. $m^*$ also differs from $m'$ because it contains the contents of $m$ plus the first modified block of $m'$.
+$m^\ast$ is different from $m$ because of the extra blocks. $m^\ast$ also differs from $m'$ because it contains the contents of $m$ plus the first modified block of $m'$.
 
 **2b.**
 The first query is $q_1 = M_1$, to get output tag $t_1$. The second query is $q_2 = (M_2 \oplus t_1) \| M_3 \| \cdots \| M_L$ to get output tag $t_2$. The first tag is $t_1 = F_k(M_1)$. By 2a with $m = q_1$ and $m' = q_2$, the forged message is
