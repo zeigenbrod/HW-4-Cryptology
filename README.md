@@ -4,7 +4,7 @@
 
 **Language:** Python 3.13.7
 
-**AES library:** `cryptography`
+**AES library:** cryptography
 
 # How to Run 
 
